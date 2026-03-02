@@ -87,6 +87,20 @@ nav {
     transition: all 0.3s ease-in-out;
 }
 
+.discord-link {
+    text-decoration: none;
+}
+
+#JOBS-ANCHOR{
+    text-decoration: none;
+    color: snow;
+}
+
+#JOBS-ANCHOR:hover {
+    color: snow;
+    background-color: transparent;
+}
+
 .main-starting-box {
     width: 80vw;
     max-width: 80vw;
@@ -126,13 +140,25 @@ nav {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
 }
+
+.main_btn a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
 
 .main_btn:hover {
     cursor: pointer;
-    background-color: snow;
-    color: var(--open-discord-btn-bg);
-    transition: all 0.3s ease-in-out;
+    transform:scale(1.1);
+    transition: all 1s ease-in-out;
 }
 
 .turnip_absolute,
@@ -745,4 +771,5 @@ nav {
     width: 100%;
     overflow-x: hidden;
 }
+
 
